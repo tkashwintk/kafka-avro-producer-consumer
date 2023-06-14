@@ -1,0 +1,12 @@
+{
+     "type": "record",
+     "namespace": "com.example.learnkafka",
+     "name": "Employee",
+     "fields": [
+       { "name": "id", "type": "string", "doc": "Employee ID" },
+       { "name": "name", "type": "string", "doc": "Employee name" },
+       { "name": "experience", "type": "float", "doc": "Experience in years", "default": 0.0 },
+       { "name": "is_allocated", "type": "boolean", "default":false, "doc": "Is employee allocated to a project?" }
+     ]
+}
+
